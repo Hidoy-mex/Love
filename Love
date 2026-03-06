@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Do you like me?</title>
+</head>
+
+<body style="text-align:center;margin-top:100px;font-family:Arial">
+
+<h2>Do you like me? ❤️</h2>
+
+<button onclick="alert('Thanks for Accepting ❤️')">Yes</button>
+<button id="no">No</button>
+
+<script>
+document.getElementById("no").onmouseover=function(){
+this.style.position="absolute";
+this.style.left=Math.random()*300+"px";
+this.style.top=Math.random()*300+"px";
+}
+</script>
+
+</body>
+</html>
